@@ -20,3 +20,11 @@ HEADERS  += mainwindow.h \
     sliceprocessor.h
 
 FORMS    += mainwindow.ui
+
+target.path = $$PREFIX/bin
+desktop.files = TimeSlicer.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons/hicolor/apps/
+icons.files = timeslicer.png
+
+INSTALLS += target desktop icons

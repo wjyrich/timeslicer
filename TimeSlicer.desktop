@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Accessibility;Qt;Utility;
+Exec=TimeSlicer
+Name=TimeSlicer
+Name[zh_CN]=TimeSlicer
+Icon=timeslicer
+StartupNotify=false
+Terminal=false
+Type=Application
+GenericName=TimeSlicer
+Version=1.0
